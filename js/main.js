@@ -19,9 +19,10 @@ function photo(x) {
 
 	image.src = "Img/img"+imageCount+".jpg";
 	
-	clearInterval(time); 								// clear interval stops the set interval.
+	clearInterval(time); 								
 	
-		time =  window.setInterval(function photoA() { 		// givig the value of time the samfunction below starts the loop
+		time =  window.setInterval(function photoA() { 		
+			
 			var image = document.getElementById('1st21');
 			
 			imageCount = imageCount + 1;
@@ -37,7 +38,7 @@ function photo(x) {
 		},2000);
 	}
  
-	var time = window.setInterval(function photoA() {    // just addign the sunction to the variable so you can target it.
+	var time = window.setInterval(function photoA() {    
 	
 		var image = document.getElementById('1st21');
 	
@@ -56,7 +57,7 @@ function photo(x) {
 
 	// second set
 	function photo(x) {
-		var image = document.getElementById('2nd');
+		var image = document.getElementById('2nd21');
 	
 		imageCount = imageCount + x;
 	
@@ -87,7 +88,7 @@ function photo(x) {
 				}
 					
 				image.src = "Img/img"+ imageCount +".jpg";
-			},2000);
+			},2250);
 		}
 	 
 		var time = window.setInterval(function photoA() {
@@ -105,7 +106,7 @@ function photo(x) {
 			}	
 		
 			image.src = "Img/img"+ imageCount +".jpg";
-		},2000);
+		},2250);
 
 		// 3rd set
 		function photo(x) {
@@ -124,9 +125,9 @@ function photo(x) {
 		
 			image.src = "Img/img"+imageCount+".jpg";
 			
-			clearInterval(time); 								// clear interval stops the set interval.
+			clearInterval(time); 								
 			
-				time =  window.setInterval(function photoA() { 		// givig the value of time the samfunction below starts the loop
+				time =  window.setInterval(function photoA() { 	
 					var image = document.getElementById('3rd21');
 					
 					imageCount = imageCount + 1;
@@ -139,10 +140,10 @@ function photo(x) {
 					}
 						
 					image.src = "Img/img"+ imageCount +".jpg";
-				},2000);
+				},2500);
 			}
 		 
-			var time = window.setInterval(function photoA() {    // just addign the sunction to the variable so you can target it.
+			var time = window.setInterval(function photoA() {    
 			
 				var image = document.getElementById('3rd21');
 			
@@ -157,5 +158,5 @@ function photo(x) {
 				}	
 			
 				image.src = "Img/img"+ imageCount +".jpg";
-			},2000);
+			},2500);
 	window.onload = photo(x);
