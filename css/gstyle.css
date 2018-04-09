@@ -3,7 +3,7 @@
   padding: 0;
 }
 .slider img{
-  height: 500px;
+  height: 350px;
 }
 .thumbnails img{
   height: 250px;
@@ -12,4 +12,8 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom:2rem; 
+}
+body{
+  background-color: #282e34;
 }

@@ -138,37 +138,46 @@ nav li{
 	background-attachment: fixed;
 }
 .section img{
-	width: 120px;
-	padding-top: 0;
-	
-	margin-left: 80px;
-	padding-right: 15px;
-	border-radius: 15px;
+	width: 200px;
+	padding: 0.5rem;
 }
 .pimg2 p, .pimg3 p, .pimg4 p{
 padding-top: 10px;
 }
 
 .pimg1{
-	background-image: url('../img/img33.jpg');
+	background-image: url('../img/img13.jpg');	
 	min-height: 100%;
+	
 }
 
 .pimg2{
-	background-image: url('../img/background3.jpg');
+	background-image: url('../img/bigimg.jpg');
 	min-height: 400px;
 }
 
 .pimg3{
-	background-image:url('../img/zuluwed.jpg');
+	background-image:url('../img/big.jpg');
 	min-height: 400px;
 }
 .pimg4{
-	background-image:url('../img/background4.jpg');
+	background-image:url('../img/toobig1.jpg');
 	min-height: 400px;
 }
 
+.section .imgs h5{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+}
+
+h5{
+	color: black;
+}
+
 .section{
+	
 	text-align: center;
 	/*padding: 50px 80px;*/
 }
@@ -236,3 +245,4 @@ h1{
 .container img{
 	width:100px;
 }
+
